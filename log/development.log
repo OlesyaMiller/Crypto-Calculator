@@ -1,0 +1,2 @@
+  [1m[35m (836.0ms)[0m  [1m[35mCREATE DATABASE "crypto_calculator_development" ENCODING = 'unicode'[0m
+  [1m[35m (467.4ms)[0m  [1m[35mCREATE DATABASE "crypto_calculator_test" ENCODING = 'unicode'[0m
