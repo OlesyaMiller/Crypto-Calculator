@@ -4189,3 +4189,17 @@ Processing by CurrenciesController#index as HTML
 Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 3648)
 
 
+Started GET "/" for ::1 at 2021-04-01 12:58:54 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1024)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 3644)
+
+
+Started GET "/" for ::1 at 2021-04-01 12:59:07 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1024)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3643)
+
+

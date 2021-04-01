@@ -11,7 +11,6 @@ class PortfolioContainer extends Component {
         amount: null
     }
     handleChange = (e) => {
-        // e.preventDefault()
         this.setState({
             [e.target.name]: e.target.value
         })
