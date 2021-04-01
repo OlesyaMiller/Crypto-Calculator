@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Search from './Search';
+import Calculate from './Calculate';
 
 class PortfolioContainer extends Component {
     state = {
@@ -12,7 +14,8 @@ class PortfolioContainer extends Component {
     render() {
         return (
             <div>
-                
+                <Search/>
+                <Calculate/>
             </div>
         );
     }
