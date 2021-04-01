@@ -4098,3 +4098,17 @@ Processing by CurrenciesController#index as HTML
 Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.0ms | Allocations: 3646)
 
 
+Started GET "/" for ::1 at 2021-04-01 12:41:04 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 1024)
+Completed 200 OK in 70ms (Views: 60.8ms | ActiveRecord: 0.0ms | Allocations: 3650)
+
+
+Started GET "/" for ::1 at 2021-04-01 12:41:59 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 8.3ms | Allocations: 1025)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.0ms | Allocations: 3647)
+
+
