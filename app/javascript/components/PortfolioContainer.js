@@ -10,11 +10,18 @@ class PortfolioContainer extends Component {
         active_currency: null,
         amount: null
     }
-    
+    handleChange = (e) => {
+        // e.preventDefault()
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+        console.log(this.state.name)
+    }
+
     render() {
         return (
             <div>
-                <Search/>
+                <Search handleChange={this.handleChange}/>
                 <Calculate/>
             </div>
         );
