@@ -4005,3 +4005,61 @@ Completed 200 OK in 10607ms (Views: 10600.1ms | ActiveRecord: 0.0ms | Allocation
   [1m[36mCurrency Load (0.6ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" ORDER BY "currencies"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
   [1m[36mCurrency Load (0.7ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" ORDER BY "currencies"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
   [1m[36mCurrency Load (0.7ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" ORDER BY "currencies"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+Started GET "/" for ::1 at 2021-04-01 11:37:23 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 62.4ms | Allocations: 978)
+Completed 200 OK in 438ms (Views: 342.2ms | ActiveRecord: 0.0ms | Allocations: 3765)
+
+
+Started GET "/" for ::1 at 2021-04-01 11:45:36 -0400
+  [1m[35m (9.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 13.9ms | Allocations: 2731)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms | Allocations: 4716)
+
+
+  
+ActionView::Template::Error (Webpacker can't find index in /Users/user/Development/code/crypto-calculator/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+  "application.js": "/packs/js/application-4103120ae61f4418a6e8.js",
+  "application.js.map": "/packs/js/application-4103120ae61f4418a6e8.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-4103120ae61f4418a6e8.js"
+      ],
+      "js.map": [
+        "/packs/js/application-4103120ae61f4418a6e8.js.map"
+      ]
+    },
+    "hello_react": {
+      "js": [
+        "/packs/js/hello_react-e2e36f46a17a8b62c064.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_react-e2e36f46a17a8b62c064.js.map"
+      ]
+    }
+  },
+  "hello_react.js": "/packs/js/hello_react-e2e36f46a17a8b62c064.js",
+  "hello_react.js.map": "/packs/js/hello_react-e2e36f46a17a8b62c064.js.map"
+}
+):
+    1: <%= javascript_pack_tag 'index' %>
+  
+app/views/currencies/index.html.erb:1
+Started GET "/" for ::1 at 2021-04-01 11:46:55 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1056)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms | Allocations: 5442)
+
+
