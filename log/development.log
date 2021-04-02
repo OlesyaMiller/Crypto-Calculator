@@ -4203,3 +4203,33 @@ Processing by CurrenciesController#index as HTML
 Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 3643)
 
 
+Started GET "/" for ::1 at 2021-04-01 15:33:20 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 24.4ms | Allocations: 1025)
+Completed 200 OK in 152ms (Views: 102.8ms | ActiveRecord: 0.0ms | Allocations: 3654)
+
+
+Started GET "/" for ::1 at 2021-04-01 15:46:00 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1024)
+Completed 200 OK in 46ms (Views: 40.0ms | ActiveRecord: 0.0ms | Allocations: 3649)
+
+
+Started GET "/" for ::1 at 2021-04-02 00:58:02 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 53.8ms | Allocations: 1024)
+Completed 200 OK in 185ms (Views: 148.5ms | ActiveRecord: 0.0ms | Allocations: 3650)
+
+
+Started GET "/" for ::1 at 2021-04-02 00:58:06 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+  Rendered currencies/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1024)
+Completed 200 OK in 47ms (Views: 41.4ms | ActiveRecord: 0.0ms | Allocations: 3650)
+
+
+Started GET "/" for ::1 at 2021-04-02 14:07:22 -0400
+Processing by CurrenciesController#index as HTML
