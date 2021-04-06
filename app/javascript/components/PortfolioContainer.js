@@ -12,19 +12,21 @@ class PortfolioContainer extends Component {
         amount: null
     }
     handleChange = (e) => {
-        this.setState({
-            [e.target.name]: e.target.value
-        })
+        // this.setState({
+        //     [e.target.name]: e.target.value
+        // })
         axios.post('http://localhost:3000/search', {
-            name: this.state.name
+            search: e.target.value
         })
         .then((data) => {
-            debugger
+            this.setState({
+                search_results: [...data.data.currencies]
+            })
         })
         .catch((data) => {
             debugger 
         })
-        console.log(this.state.name)
+        console.log(this.state.search_results)
     }
 
     render() {
