@@ -19,9 +19,10 @@ class PortfolioContainer extends Component {
             search: e.target.value
         })
         .then((data) => {
-            this.setState({
-                search_results: [...data.data.currencies]
-            })
+            // this.setState({
+            //     search_results: [...data.data.currencies]
+            // })
+            debugger 
         })
         .catch((data) => {
             debugger 
@@ -35,7 +36,7 @@ class PortfolioContainer extends Component {
                 <Search handleChange={this.handleChange}/>
                 <Calculate/>
             </div>
-        );
+        )
     }
 }
 
