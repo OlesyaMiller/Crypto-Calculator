@@ -40,4 +40,4 @@ class PortfolioContainer extends Component {
     }
 }
 
-export default PortfolioContainer;
+export default PortfolioContainer
