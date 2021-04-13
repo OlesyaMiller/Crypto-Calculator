@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Search from './Search'
-import Calculate from './Calculate';
-import axios from 'axios';
+import Calculate from './Calculate'
+import axios from 'axios'
 
 class PortfolioContainer extends Component {
     state = {
