@@ -16,7 +16,6 @@ class PortfolioContainer extends Component {
             search: e.target.value
         })
         .then((data) => {
-            // })
             debugger 
         })
         .catch((data) => {
