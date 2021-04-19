@@ -12,7 +12,6 @@ class PortfolioContainer extends Component {
         amount: null
     }
     handleChange = (e) => {
-        //     [e.target.name]: e.target.value
         // })
         axios.post('http://localhost:3000/search', {
             search: e.target.value
