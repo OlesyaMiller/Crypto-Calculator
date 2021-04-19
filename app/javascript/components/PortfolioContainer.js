@@ -16,7 +16,6 @@ class PortfolioContainer extends Component {
             search: e.target.value
         })
         .then((data) => {
-            // this.setState({
             //     search_results: [...data.data.currencies]
             // })
             debugger 
