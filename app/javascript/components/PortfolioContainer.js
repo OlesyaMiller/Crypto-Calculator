@@ -21,7 +21,7 @@ class PortfolioContainer extends Component {
         .catch((data) => {
             debugger 
         })
-        console.log(this.state.search_results)
+        // console.log(this.state.search_results);
     }
 
     render() {
