@@ -12,4 +12,4 @@ class Calculate extends Component {
     }
 }
 
-export default Calculate;
+export default Calculate
