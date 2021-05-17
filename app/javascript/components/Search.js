@@ -15,7 +15,7 @@ class Search extends Component {
                     </div>    
                 </form> 
             </div>
-        );
+        )
     }
 }
 
