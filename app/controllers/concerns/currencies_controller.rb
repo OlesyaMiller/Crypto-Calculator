@@ -4,7 +4,6 @@ class CurrenciesController < ApplicationController
         @currencies = Carrency.where('LOWER(name) LIKE ?', "%#{params[:search].downcase}%")
         render json: {currencies: @currencies}
     end
-    #takes in the currency id and the amount owned
     
     def calculate 
         amount = params[:amount]
