@@ -20,7 +20,7 @@ class PortfolioContainer extends Component {
         })
         .catch((data) => {
             debugger 
-        })
+        });
     }
 
     render() {
