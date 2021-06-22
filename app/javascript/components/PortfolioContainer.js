@@ -20,8 +20,8 @@ class PortfolioContainer extends Component {
         })
         .catch((data) => {
             debugger 
-        });
-    }
+        })
+    };
 
     render() {
         return (
@@ -30,7 +30,7 @@ class PortfolioContainer extends Component {
                 <Calculate/>
             </div>
         )
-    }
+    };
 }
 
 export default PortfolioContainer;
