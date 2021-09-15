@@ -1,0 +1,8 @@
+2021-09-14 20:34:52.909 AST [89221] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit
+2021-09-14 20:34:52.913 AST [89221] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-14 20:34:52.913 AST [89221] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-14 20:34:52.915 AST [89221] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-09-14 20:34:52.937 AST [89222] LOG:  database system was shut down at 2021-09-14 20:33:44 AST
+2021-09-14 20:34:52.946 AST [89221] LOG:  database system is ready to accept connections
+2021-09-14 20:35:19.474 AST [89270] FATAL:  database "crypto_calculator_development" does not exist
+2021-09-14 20:37:01.038 AST [89325] FATAL:  database "crypto_calculator_development" does not exist
