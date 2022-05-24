@@ -17,5 +17,9 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^4.2.1"
-  }
+  },
+  "scripts": {
+    "start": "node app/javascript/packs/index.js"
+  },
+  "type": "module"
 }
