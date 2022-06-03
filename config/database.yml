@@ -80,6 +80,8 @@ test:
 #
 production:
   <<: *default
+  host: localhost
+  port: 5432
   database: crypto_calculator_production
   username: crypto_calculator
   password: <%= ENV['CRYPTO_CALCULATOR_DATABASE_PASSWORD'] %>
