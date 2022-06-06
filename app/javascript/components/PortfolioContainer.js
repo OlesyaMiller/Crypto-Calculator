@@ -4,24 +4,19 @@ import Calculate from './Calculate'
 import axios from 'axios'
 
 class PortfolioContainer extends Component {
-    state = {
-        name: '',
-        portfolio: [],
-        search_results: [],
-        active_currency: null,
-        amount: null
+    constructor(props){
+        super(props)
+        this.state = {
+            name: '',
+            portfolio: [],
+            search_results: [],
+            active_currency: null,
+            amount: null
+        }
+        this.handleChange = this.handleChange.bind(this)
     }
     handleChange = (e) => {
-        axios.post('http://localhost:3000/search', {
-            search: e.target.value
-        })
-        .then((data) => {
-            debugger 
-        })
-        .catch((data) => {
-            debugger 
-        })
-        // console.log(this.state.search_results);
+        debugger
     }
 
     render() {
