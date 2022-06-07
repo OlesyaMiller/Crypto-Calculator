@@ -1,22 +1,22 @@
 import React, { Component } from 'react'
 import Search from './Search'
 import Calculate from './Calculate'
-import axios from 'axios'
 
 class PortfolioContainer extends Component {
-    constructor(props){
-        super(props)
-        this.state = {
-            name: '',
-            portfolio: [],
-            search_results: [],
-            active_currency: null,
-            amount: null
-        }
-        this.handleChange = this.handleChange.bind(this)
+    state = {
+        name: '',
+        portfolio: [],
+        search_results: [],
+        active_currency: null,
+        amount: null
     }
+
     handleChange = (e) => {
         debugger
+        this.setState({
+            [e.target.name]: e.target.value
+        })
+        console.log(this.state.name)
     }
 
     render() {
