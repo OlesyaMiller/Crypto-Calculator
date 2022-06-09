@@ -23129,3 +23129,739 @@ Entrypoint index = js/index-b32e49df6b9483da45b6.js js/index-b32e49df6b9483da45b
 Completed 200 OK in 1422ms (Views: 1420.9ms | ActiveRecord: 0.0ms | Allocations: 6269)
 
 
+Started GET "/" for ::1 at 2022-06-07 13:37:48 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered currencies/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 1905)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 8393)
+
+
+Started GET "/" for ::1 at 2022-06-08 20:43:13 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/olesya/Development/Code/Crypto-Calculator/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 1f3c5ccc0b854b023bfd
+Version: webpack 4.46.0
+Time: 1016ms
+Built at: 06/08/2022 8:43:14 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c148a3dac298397afe5f.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c148a3dac298397afe5f.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-302f0b8af2749e350b7f.js   1.39 MiB        index  [emitted] [immutable]  index
+      js/index-302f0b8af2749e350b7f.js.map   1.58 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c148a3dac298397afe5f.js js/application-c148a3dac298397afe5f.js.map
+Entrypoint index = js/index-302f0b8af2749e350b7f.js js/index-302f0b8af2749e350b7f.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 547 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 60 hidden modules
+
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1862.0ms | Allocations: 3078)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1865ms (Views: 1864.3ms | ActiveRecord: 0.0ms | Allocations: 6314)
+
+
+Started GET "/" for ::1 at 2022-06-08 20:43:21 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered currencies/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1712)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 4941)
+
+
+Started GET "/" for ::1 at 2022-06-08 20:49:37 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/olesya/Development/Code/Crypto-Calculator/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 3e46900a37cd1acc000a
+Version: webpack 4.46.0
+Time: 879ms
+Built at: 06/08/2022 8:49:39 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c148a3dac298397afe5f.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c148a3dac298397afe5f.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-59c8a31c85328cd32f34.js   1.39 MiB        index  [emitted] [immutable]  index
+      js/index-59c8a31c85328cd32f34.js.map   1.58 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c148a3dac298397afe5f.js js/application-c148a3dac298397afe5f.js.map
+Entrypoint index = js/index-59c8a31c85328cd32f34.js js/index-59c8a31c85328cd32f34.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 547 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 60 hidden modules
+
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1497.4ms | Allocations: 3047)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1501ms (Views: 1499.9ms | ActiveRecord: 0.0ms | Allocations: 6277)
+
+
+Started POST "/search" for ::1 at 2022-06-08 20:49:42 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"name"=>"", "currency"=>{"name"=>""}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 2.9ms | Allocations: 990)
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+app/controllers/currencies_controller.rb:6:in `search'
+Started GET "/" for ::1 at 2022-06-08 20:50:22 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered currencies/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1905)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 8393)
+
+
+Started POST "/search" for ::1 at 2022-06-08 20:50:25 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"name"=>"", "currency"=>{"name"=>""}}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 1.8ms | Allocations: 1004)
+
+
+  
+NoMethodError (undefined method `downcase' for nil:NilClass):
+  
+app/controllers/currencies_controller.rb:6:in `search'
+Started GET "/" for ::1 at 2022-06-08 20:56:59 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/olesya/Development/Code/Crypto-Calculator/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 4cf3eb1aee46641541fe
+Version: webpack 4.46.0
+Time: 819ms
+Built at: 06/08/2022 8:57:01 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c148a3dac298397afe5f.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c148a3dac298397afe5f.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-369933901e54d2aa672b.js   1.39 MiB        index  [emitted] [immutable]  index
+      js/index-369933901e54d2aa672b.js.map   1.58 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c148a3dac298397afe5f.js js/application-c148a3dac298397afe5f.js.map
+Entrypoint index = js/index-369933901e54d2aa672b.js js/index-369933901e54d2aa672b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 547 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 60 hidden modules
+
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1428.9ms | Allocations: 3271)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1437ms (Views: 1434.7ms | ActiveRecord: 0.0ms | Allocations: 9759)
+
+
+Started POST "/search" for ::1 at 2022-06-08 20:57:08 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"b", "currency"=>{}}
+  [1m[36mCurrency Load (9.9ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%b%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 66ms (Views: 50.9ms | ActiveRecord: 13.9ms | Allocations: 45267)
+
+
+Started GET "/" for ::1 at 2022-06-08 21:00:17 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/olesya/Development/Code/Crypto-Calculator/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 56368a431efb11ae36c9
+Version: webpack 4.46.0
+Time: 823ms
+Built at: 06/08/2022 9:00:18 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c148a3dac298397afe5f.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c148a3dac298397afe5f.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-bf5bcc97dfb8c60e8cc7.js   1.39 MiB        index  [emitted] [immutable]  index
+      js/index-bf5bcc97dfb8c60e8cc7.js.map   1.58 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c148a3dac298397afe5f.js js/application-c148a3dac298397afe5f.js.map
+Entrypoint index = js/index-bf5bcc97dfb8c60e8cc7.js js/index-bf5bcc97dfb8c60e8cc7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 547 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 60 hidden modules
+
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1459.4ms | Allocations: 3268)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1479ms (Views: 1475.3ms | ActiveRecord: 0.0ms | Allocations: 9757)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:00:21 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"b", "currency"=>{}}
+  [1m[36mCurrency Load (1.4ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%b%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 37ms (Views: 32.1ms | ActiveRecord: 5.7ms | Allocations: 45269)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:00:49 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bi", "currency"=>{}}
+  [1m[36mCurrency Load (1.0ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 13ms (Views: 11.0ms | ActiveRecord: 1.0ms | Allocations: 18157)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:00:49 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bit", "currency"=>{}}
+  [1m[36mCurrency Load (1.7ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bit%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 1.7ms | Allocations: 14566)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:00:49 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitc", "currency"=>{}}
+  [1m[36mCurrency Load (1.6ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitc%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 1.6ms | Allocations: 6387)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:00:49 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitco", "currency"=>{}}
+  [1m[36mCurrency Load (1.8ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitco%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 1.8ms | Allocations: 5477)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:00:50 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcoi", "currency"=>{}}
+  [1m[36mCurrency Load (1.4ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcoi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 10ms (Views: 7.1ms | ActiveRecord: 1.4ms | Allocations: 5029)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:00:50 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcoin", "currency"=>{}}
+  [1m[36mCurrency Load (1.4ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcoin%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 1.4ms | Allocations: 5037)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:24 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"e", "currency"=>{}}
+  [1m[36mCurrency Load (1.4ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%e%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 71ms (Views: 68.6ms | ActiveRecord: 1.4ms | Allocations: 99810)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:24 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"et", "currency"=>{}}
+  [1m[36mCurrency Load (1.6ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%et%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 21ms (Views: 18.8ms | ActiveRecord: 1.6ms | Allocations: 11735)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:24 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"eth", "currency"=>{}}
+  [1m[36mCurrency Load (0.8ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%eth%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.8ms | Allocations: 4291)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:24 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"ethe", "currency"=>{}}
+  [1m[36mCurrency Load (1.9ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%ethe%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 11ms (Views: 7.4ms | ActiveRecord: 1.9ms | Allocations: 3255)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:25 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"ether", "currency"=>{}}
+  [1m[36mCurrency Load (0.6ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%ether%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.6ms | Allocations: 3241)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:25 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"etheri", "currency"=>{}}
+  [1m[36mCurrency Load (1.5ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%etheri%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 1.5ms | Allocations: 1307)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:25 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"etheriy", "currency"=>{}}
+  [1m[36mCurrency Load (1.7ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%etheriy%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.7ms | Allocations: 1303)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:26 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"etheri", "currency"=>{}}
+  [1m[36mCurrency Load (2.3ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%etheri%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 2.3ms | Allocations: 1303)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:29 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"ether", "currency"=>{}}
+  [1m[36mCurrency Load (2.7ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%ether%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 2.7ms | Allocations: 3239)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:29 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"ethere", "currency"=>{}}
+  [1m[36mCurrency Load (2.4ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%ethere%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 8ms (Views: 3.9ms | ActiveRecord: 2.4ms | Allocations: 2344)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:30 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"ethereu", "currency"=>{}}
+  [1m[36mCurrency Load (1.4ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%ethereu%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 1.4ms | Allocations: 2348)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:01:31 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"ethereum", "currency"=>{}}
+  [1m[36mCurrency Load (1.5ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%ethereum%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 5ms (Views: 2.7ms | ActiveRecord: 1.5ms | Allocations: 2344)
+
+
+Started GET "/" for ::1 at 2022-06-08 21:04:16 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/olesya/Development/Code/Crypto-Calculator/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: f5447b590e381b2a5304
+Version: webpack 4.46.0
+Time: 835ms
+Built at: 06/08/2022 9:04:17 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c148a3dac298397afe5f.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c148a3dac298397afe5f.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-73da1de01447d784a3e0.js   1.39 MiB        index  [emitted] [immutable]  index
+      js/index-73da1de01447d784a3e0.js.map   1.58 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c148a3dac298397afe5f.js js/application-c148a3dac298397afe5f.js.map
+Entrypoint index = js/index-73da1de01447d784a3e0.js js/index-73da1de01447d784a3e0.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 547 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 60 hidden modules
+
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1467.0ms | Allocations: 3268)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1474ms (Views: 1471.7ms | ActiveRecord: 0.0ms | Allocations: 9753)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:04:23 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"b", "currency"=>{}}
+  [1m[36mCurrency Load (1.2ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%b%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 63ms (Views: 59.1ms | ActiveRecord: 4.5ms | Allocations: 45265)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:04:23 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bi", "currency"=>{}}
+  [1m[36mCurrency Load (0.7ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.7ms | Allocations: 18139)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:04:23 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bit", "currency"=>{}}
+  [1m[36mCurrency Load (1.9ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bit%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 30ms (Views: 27.1ms | ActiveRecord: 1.9ms | Allocations: 14583)
+
+
+Started GET "/" for ::1 at 2022-06-08 21:05:18 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/olesya/Development/Code/Crypto-Calculator/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: b2dba26b4e00ca970847
+Version: webpack 4.46.0
+Time: 836ms
+Built at: 06/08/2022 9:05:19 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c148a3dac298397afe5f.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c148a3dac298397afe5f.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-98c1ef1c795d40978a83.js   1.39 MiB        index  [emitted] [immutable]  index
+      js/index-98c1ef1c795d40978a83.js.map   1.58 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c148a3dac298397afe5f.js js/application-c148a3dac298397afe5f.js.map
+Entrypoint index = js/index-98c1ef1c795d40978a83.js js/index-98c1ef1c795d40978a83.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 547 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 60 hidden modules
+
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1455.8ms | Allocations: 3273)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1463ms (Views: 1460.4ms | ActiveRecord: 0.0ms | Allocations: 9756)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:05:23 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"b", "currency"=>{}}
+  [1m[36mCurrency Load (1.3ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%b%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 59ms (Views: 54.6ms | ActiveRecord: 4.7ms | Allocations: 45261)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:05:23 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bi", "currency"=>{}}
+  [1m[36mCurrency Load (1.7ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 38ms (Views: 34.7ms | ActiveRecord: 1.7ms | Allocations: 18142)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:05:23 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bit", "currency"=>{}}
+  [1m[36mCurrency Load (1.6ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bit%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 1.6ms | Allocations: 14584)
+
+
+Started GET "/" for ::1 at 2022-06-08 21:10:14 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/olesya/Development/Code/Crypto-Calculator/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: f6c79ebe594803a21c24
+Version: webpack 4.46.0
+Time: 889ms
+Built at: 06/08/2022 9:10:16 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c148a3dac298397afe5f.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c148a3dac298397afe5f.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-0612a64a9ba8db46f54d.js   1.39 MiB        index  [emitted] [immutable]  index
+      js/index-0612a64a9ba8db46f54d.js.map   1.58 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c148a3dac298397afe5f.js js/application-c148a3dac298397afe5f.js.map
+Entrypoint index = js/index-0612a64a9ba8db46f54d.js js/index-0612a64a9ba8db46f54d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 547 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 60 hidden modules
+
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1522.7ms | Allocations: 3272)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1539ms (Views: 1536.0ms | ActiveRecord: 0.0ms | Allocations: 9759)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:22 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"b", "currency"=>{}}
+  [1m[36mCurrency Load (1.4ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%b%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 80ms (Views: 76.6ms | ActiveRecord: 4.6ms | Allocations: 45263)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:22 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bi", "currency"=>{}}
+  [1m[36mCurrency Load (1.0ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 1.0ms | Allocations: 18143)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:22 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bit", "currency"=>{}}
+  [1m[36mCurrency Load (1.8ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bit%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 1.8ms | Allocations: 14582)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:23 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitc", "currency"=>{}}
+  [1m[36mCurrency Load (1.0ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitc%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 1.0ms | Allocations: 6382)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:24 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitco", "currency"=>{}}
+  [1m[36mCurrency Load (1.0ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitco%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 1.0ms | Allocations: 5481)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:24 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcou", "currency"=>{}}
+Started POST "/search" for ::1 at 2022-06-08 21:10:24 -0400
+  [1m[36mCurrency Load (2.1ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcou%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 6ms (Views: 2.6ms | ActiveRecord: 2.1ms | Allocations: 2076)
+
+
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcoui", "currency"=>{}}
+  [1m[36mCurrency Load (2.9ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcoui%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 2.9ms | Allocations: 1229)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:25 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcou", "currency"=>{}}
+  [1m[36mCurrency Load (0.9ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcou%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 3ms (Views: 1.2ms | ActiveRecord: 0.9ms | Allocations: 1155)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:25 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitco", "currency"=>{}}
+  [1m[36mCurrency Load (1.5ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitco%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 1.5ms | Allocations: 5480)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:26 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcoi", "currency"=>{}}
+  [1m[36mCurrency Load (2.0ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcoi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 2.0ms | Allocations: 5032)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:10:26 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcoin", "currency"=>{}}
+  [1m[36mCurrency Load (2.7ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcoin%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 2.7ms | Allocations: 5030)
+
+
+Started GET "/" for ::1 at 2022-06-08 21:16:45 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/olesya/Development/Code/Crypto-Calculator/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 9211086abbedb19e9e19
+Version: webpack 4.46.0
+Time: 872ms
+Built at: 06/08/2022 9:16:46 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c148a3dac298397afe5f.js    124 KiB  application  [emitted] [immutable]  application
+js/application-c148a3dac298397afe5f.js.map    139 KiB  application  [emitted] [dev]        application
+          js/index-159f479eb04e1a2dc56b.js   1.39 MiB        index  [emitted] [immutable]  index
+      js/index-159f479eb04e1a2dc56b.js.map   1.58 MiB        index  [emitted] [dev]        index
+                             manifest.json  661 bytes               [emitted]              
+Entrypoint application = js/application-c148a3dac298397afe5f.js js/application-c148a3dac298397afe5f.js.map
+Entrypoint index = js/index-159f479eb04e1a2dc56b.js js/index-159f479eb04e1a2dc56b.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/index.js] 547 bytes {index} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 863 bytes {index} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} {index} [built]
+    + 60 hidden modules
+
+  Rendered currencies/index.html.erb within layouts/application (Duration: 1513.2ms | Allocations: 3268)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 1521ms (Views: 1518.1ms | ActiveRecord: 0.0ms | Allocations: 9754)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:16:49 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"b", "currency"=>{}}
+  [1m[36mCurrency Load (1.4ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%b%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 60ms (Views: 55.9ms | ActiveRecord: 5.3ms | Allocations: 45263)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:16:49 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bi", "currency"=>{}}
+  [1m[36mCurrency Load (0.9ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.9ms | Allocations: 18136)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:16:49 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bit", "currency"=>{}}
+  [1m[36mCurrency Load (1.6ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bit%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 29ms (Views: 25.5ms | ActiveRecord: 1.6ms | Allocations: 14582)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:16:50 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitc", "currency"=>{}}
+  [1m[36mCurrency Load (2.6ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitc%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 2.6ms | Allocations: 6391)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:16:50 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitco", "currency"=>{}}
+  [1m[36mCurrency Load (0.8ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitco%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 6ms (Views: 3.8ms | ActiveRecord: 0.8ms | Allocations: 5476)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:16:50 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcoi", "currency"=>{}}
+  [1m[36mCurrency Load (1.5ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcoi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 1.5ms | Allocations: 5034)
+
+
+Started POST "/search" for ::1 at 2022-06-08 21:16:51 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitcoin", "currency"=>{}}
+  [1m[36mCurrency Load (1.5ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitcoin%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 1.5ms | Allocations: 5047)
+
+
+Started GET "/" for ::1 at 2022-06-08 21:16:58 -0400
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered currencies/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 4939)
+
+
