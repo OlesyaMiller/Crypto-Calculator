@@ -3,13 +3,13 @@ import React, { Component } from 'react';
 class Search extends Component {
     
     render() {
-        const searchResults = this.props.searchResults.map(curr => <li key={curr.id} className="currency-list-item"><a class="currency" href="#"><span>{curr.name}</span><span>{curr.currency_symbol}</span></a></li>)
+        const searchResults = this.props.searchResults.map(curr => <li key={curr.id} data-id={curr.id} onClick={this.props.handleSelect} className="currency-list-item"><a href="#" data-id={curr.id} className="currency"><strong >{curr.name}</strong> <strong>{curr.currency_symbol}</strong></a></li>)
         return (
             <div>
-                <h1>Cryptocurrency Portfolio Calculator</h1>
+                <h1>Cryptocurrency Calculator</h1>
                 <form>
                     <div className="form-group">
-                        <label>earch for a Cryptocurrency:</label><br/>
+                        <label>Search for a Cryptocurrency:</label><br/>
                         <input onChange={this.props.handleChange} autoComplete="off" type="text" name="name" placeholder="Ex: Bitcoin, Ethereum" value={this.props.name} className="field"/>    
                     </div>    
                 </form> 
