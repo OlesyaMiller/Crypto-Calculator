@@ -25715,3 +25715,45 @@ Processing by CurrenciesController#search as HTML
 Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.7ms | Allocations: 6368)
 
 
+Started GET "/" for ::1 at 2022-06-10 23:34:00 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CurrenciesController#index as HTML
+  Rendering currencies/index.html.erb within layouts/application
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered currencies/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1905)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 13852)
+
+
+Started POST "/search" for ::1 at 2022-06-10 23:34:02 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"b", "currency"=>{}}
+  [1m[36mCurrency Load (1.3ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%b%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 38ms (Views: 33.6ms | ActiveRecord: 5.4ms | Allocations: 45269)
+
+
+Started POST "/search" for ::1 at 2022-06-10 23:34:03 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bi", "currency"=>{}}
+  [1m[36mCurrency Load (0.8ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bi%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.8ms | Allocations: 18157)
+
+
+Started POST "/search" for ::1 at 2022-06-10 23:34:03 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bit", "currency"=>{}}
+  [1m[36mCurrency Load (0.8ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bit%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.8ms | Allocations: 14565)
+
+
+Started POST "/search" for ::1 at 2022-06-10 23:34:08 -0400
+Processing by CurrenciesController#search as HTML
+  Parameters: {"search"=>"bitc", "currency"=>{}}
+  [1m[36mCurrency Load (1.0ms)[0m  [1m[34mSELECT "currencies".* FROM "currencies" WHERE (LOWER(name) LIKE '%bitc%')[0m
+  ↳ app/controllers/currencies_controller.rb:7:in `search'
+Completed 200 OK in 7ms (Views: 4.8ms | ActiveRecord: 1.0ms | Allocations: 6391)
+
+
